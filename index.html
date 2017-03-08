@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Java Script</title>
+  <link rel="icon" type="image/png" href="images/Java Scr.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container">
+
+ <input type="text" name="number" placeholder="Type Digit (0-100)" id="resultNumBER">
+ <button type="button" onclick="clicka();">Result</button>
+  <h2 id="rResultshOW"></h2>
+</div>
+<script>
+
+
+
+
+ 
+function clicka(){
+	var a =document.getElementById("resultNumBER").value;
+    if (a<=100){
+	document.getElementById("rResultshOW").innerHTML="A+";
+    }
+
+   if(a<=79){
+	document.getElementById("rResultshOW").innerHTML="A";
+    }
+     if (a<=69){
+	document.getElementById("rResultshOW").innerHTML="A-";
+    }
+   if (a<=59){
+	document.getElementById("rResultshOW").innerHTML="B";
+    }
+     if (a<=49){
+	document.getElementById("rResultshOW").innerHTML="C";
+    }
+     if (a<=33){
+	document.getElementById("rResultshOW").innerHTML="D";
+    }
+    if (a<=){
+	document.getElementById("rResultshOW").innerHTML="We are sorry";
+    }
+
+
+
+	
+}
+</script>
+</div>
+</body>
+</html>
+
